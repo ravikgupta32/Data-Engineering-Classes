@@ -3,6 +3,8 @@ class employee():
     def __init__(self,emp_name,emp_dept): #This is a constructor
         self.emp_name =emp_name
         self.emp_dept =emp_dept
+    
+    #Alternative to Class
     def changes(self,new_company):
         employee.company_name=new_company
     def info(self):
