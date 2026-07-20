@@ -12,8 +12,14 @@ class employee():
     def addition(x,y):
         print(x+y)
 
+    #Class method
+    @classmethod
+    def changesInClass(cls,new_company):
+        cls.company_name = new_company #Class attribute is cls
+
 emp1=employee('Ravi','IT')
 emp2 =employee('Henry','HR')
-
+emp1.changesInClass('NewNewCompany')
+print(emp1.company_name)
 emp1.addition(1,2)
 
