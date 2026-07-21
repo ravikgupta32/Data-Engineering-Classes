@@ -1,0 +1,12 @@
+Why Numpy is fatser? - Fixed type
+
+Faster to read less byte of memory
+No type checking when iterating through objects
+Contigous memory 
+
+Benefits:
+SIMD Vector Processing(single insturction multiple data)
+Effective Cache Utlization
+
+Lists- Insertion,deletion,appending,concatenation,etc.
+Numpy-Insertion,deletion,appending,concatenation,etc
